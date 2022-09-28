@@ -1,0 +1,14 @@
+#chapter3 {
+  margin-top: -6%;
+  padding-top: 5%;
+  padding-bottom: 10%;
+  background-size: cover;
+  background-image: url("../../../public/images/chapter3-bg.jpeg");
+}
+
+@media screen and (max-width: 580px) {
+  #chapter3 {
+    padding-top: 18%;
+    padding-bottom: 20%;
+  }
+}

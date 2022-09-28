@@ -1,0 +1,63 @@
+.storiesDetails {
+  width: 100%;
+  margin-bottom: 15%;
+  min-height: 47vh;
+  text-decoration: none;
+}
+
+.storyListWrapper {
+  width: 45%;
+}
+
+#storyDescription {
+  word-wrap: break-word;
+  line-height: 3vh;
+  font-size: 0.9rem;
+}
+
+#storyTitle {
+  font-size: 1.4rem;
+  font-family: "Henny Penny", cursive;
+}
+
+#storyImage {
+  width: 100%;
+  height: 240px;
+  object-fit: cover;
+}
+
+@media screen and (max-width: 640px) {
+  #storyTitle {
+    font-size: 1.2rem;
+  }
+  #storyDescription {
+    font-size: 0.8rem;
+  }
+  #storyImage {
+    height: 200px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  #storyTitle {
+    font-size: 1.1rem;
+  }
+  #storyDescription {
+    font-size: 0.7rem;
+  }
+  #storyImage {
+    height: 170px;
+  }
+}
+@media screen and (max-width: 450px) {
+  #story-list {
+    display: flex;
+    flex-direction: column;
+  }
+  .storyListWrapper {
+    width: 100%;
+  }
+  .storiesDetails {
+    margin-bottom: 3vh;
+  }
+}

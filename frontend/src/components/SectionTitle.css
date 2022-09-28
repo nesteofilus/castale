@@ -1,0 +1,30 @@
+.sectionTitleContainer {
+  margin: 0;
+  padding: 8vh 0 6vh;
+}
+
+#sectionDescription {
+  margin-left: 1.5vh;
+  font-weight: 300;
+  font-size: 1.5rem;
+}
+
+#sectionTitle {
+  font-family: "Henny Penny", cursive;
+  font-size: 110%;
+}
+
+@media screen and (max-width: 580px) {
+  #sectionDescription {
+    font-size: 1.2rem;
+  }
+  #sectionTitle {
+    font-size: 1.4rem;
+  }
+}
+
+@media screen and (max-width: 875px) {
+  .sectionTitleContainer {
+    padding: 1vh 0 4vh;
+  }
+}

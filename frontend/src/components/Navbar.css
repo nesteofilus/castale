@@ -1,0 +1,50 @@
+nav {
+  display: flex;
+  justify-content: flex-end;
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 1;
+}
+
+.nav-items {
+  height: 100%;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+
+.nav-links {
+  font-family: "Henny Penny", cursive;
+  font-weight: 900;
+  font-size: 110%;
+  color: rgb(42, 42, 42);
+}
+
+.nav {
+  margin: 0 10px;
+  background-size: 125px;
+  background-repeat: no-repeat;
+  width: 125px;
+  height: 125px;
+}
+
+#nav-home {
+  background-image: url(../../public/images/nav-home.png);
+}
+
+#nav-stories {
+  background-image: url(../../public/images/nav-stories.png);
+}
+
+@media screen and (max-width: 600px) {
+  .nav {
+    margin: 0 5px;
+    background-size: 100px;
+    width: 100px;
+    height: 100px;
+  }
+  .nav-links {
+    font-size: 100%;
+  }
+}

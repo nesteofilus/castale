@@ -1,0 +1,43 @@
+#footer {
+  height: 10vh;
+  padding-top: -30%;
+  z-index: 1;
+  bottom: 0;
+  background-color: gray;
+  background-size: cover;
+  font-family: "Padauk", sans-serif;
+  padding: 3%;
+  display: flex;
+  justify-content: space-between;
+}
+
+#footerHeading h1 {
+  font-size: 2rem;
+  margin: 0;
+  color: rgb(214, 214, 214);
+  font-family: "Henny Penny", cursive;
+}
+
+#footerContent {
+  color: rgb(180, 180, 180);
+}
+
+#rightFooter {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#rightFooter a img {
+  margin-left: 20px;
+}
+
+@media screen and (max-width: 600px) {
+  #footerHeading h1 {
+    font-size: 1.5rem;
+  }
+  #footerContent {
+    font-size: 0.9rem;
+  }
+}

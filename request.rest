@@ -1,0 +1,12 @@
+GET http://localhost:3001/all-stories
+
+###
+GET http://localhost:3001/categories
+
+###
+GET http://localhost:3001/search/category=Princess
+
+###
+GET http://localhost:3001/story/6321b86d401e5e3aae6fa3ed
+
+###

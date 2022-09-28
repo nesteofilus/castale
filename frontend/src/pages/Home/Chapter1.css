@@ -1,0 +1,64 @@
+.row {
+  margin-bottom: 5.5vh;
+  cursor: pointer;
+  display: flex;
+}
+
+#chapter1 {
+  background-image: url("../../../public/images/tornPaper-2.png");
+  padding-bottom: 26vh;
+  opacity: 1;
+}
+
+.row-content-container {
+  display: flex;
+  flex-direction: column;
+  padding-left: 50px;
+  width: 50%;
+}
+
+.row-content-wrapper {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.row-title {
+  font-size: 1.2rem;
+}
+.row-description {
+  line-height: 3.5vh;
+  font-size: 1rem;
+}
+
+.row-image {
+  width: 50%;
+}
+
+@media screen and (max-width: 580px) {
+  .row-title {
+    font-size: 1rem;
+  }
+  .row-description {
+    line-height: 3.5vh;
+    font-size: 0.8rem;
+  }
+}
+
+@media screen and (max-width: 834px) {
+  .row {
+    flex-direction: column;
+    padding: 0 15px;
+  }
+  .row-image {
+    width: 100%;
+  }
+  .storyImage {
+    height: 30vh;
+  }
+  .row-content-container {
+    width: 100%;
+    padding-left: 0;
+  }
+}

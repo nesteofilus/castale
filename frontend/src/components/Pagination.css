@@ -1,0 +1,29 @@
+.pagination ul {
+  display: flex;
+  justify-content: flex-end;
+  margin: 0;
+  padding-bottom: 10%;
+}
+
+.page-link {
+  cursor: pointer;
+  list-style-type: none;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 1vw;
+}
+
+.page-button {
+  border: rgba(175, 175, 175, 0.279) 1px solid;
+  border-radius: 5px;
+  height: 30px;
+  width: 50px;
+  cursor: pointer;
+}
+
+.page-button:hover {
+  background-color: rgba(164, 164, 164, 0.279);
+}

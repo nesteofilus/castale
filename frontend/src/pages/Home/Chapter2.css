@@ -1,0 +1,17 @@
+#chapter2 {
+  background-image: url("../../../public/images/chapter2-bg.png");
+  background-size: cover;
+  z-index: 1;
+  height: 80vh;
+  margin-top: -12%;
+  padding-top: 4%;
+  padding-bottom: 4%;
+  position: relative;
+}
+
+@media screen and (max-width: 580px) {
+  #chapter2 {
+    padding-top: 20%;
+    padding-bottom: 0;
+  }
+}

@@ -1,0 +1,19 @@
+#search {
+  border: solid black 1px;
+  border-radius: 5px;
+  height: 30px;
+  padding-left: 4vh;
+  background: url("../../public/images/search-icon.png") no-repeat 7px;
+  background-size: 11%;
+  font-size: 90%;
+}
+
+.MuiInputBase-root {
+  border: none;
+}
+
+@media screen and (max-width: 450px) {
+  #search {
+    font-size: 70%;
+  }
+}

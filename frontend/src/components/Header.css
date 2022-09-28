@@ -1,0 +1,90 @@
+#header {
+  display: flex;
+  height: 70vh;
+  position: relative;
+  width: 100%;
+  background-color: rgb(244, 255, 253);
+  background-image: url("../../public/images/homeHeader.jpg");
+  background-size: cover;
+  height: calc(75vh);
+}
+
+#headerPic {
+  max-width: 80%;
+  height: auto;
+  padding: 0 5%;
+  opacity: 90%;
+}
+
+#leftHeader {
+  width: 52%;
+  height: 100%;
+  background-image: url("../../public/images/leftHeaderBg.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+}
+
+#rightHeader {
+  width: 48%;
+}
+
+#titleImg {
+  width: 30%;
+  height: auto;
+  top: 32%;
+  position: absolute;
+}
+
+.test {
+  display: flex;
+}
+
+@media screen and (max-width: 880px) {
+  #leftHeader {
+    width: 60%;
+  }
+  #rightHeader {
+    width: 40%;
+  }
+}
+@media screen and (max-width: 772px) {
+  #leftHeader {
+    width: 65%;
+  }
+  #rightHeader {
+    width: 35%;
+  }
+}
+@media screen and (max-width: 752px) {
+  #leftHeader {
+    background-image: none;
+    width: 50%;
+  }
+  #rightHeader {
+    width: 50%;
+  }
+  #headerPic {
+    max-width: 100%;
+  }
+  #titleImg {
+    top: 37%;
+    padding-left: 10px;
+    width: 40%;
+  }
+}
+@media screen and (max-width: 482px) {
+  #leftHeader {
+    display: none;
+  }
+  #rightHeader {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #titleImg {
+    width: 72%;
+  }
+}

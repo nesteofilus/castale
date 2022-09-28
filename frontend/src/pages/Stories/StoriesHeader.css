@@ -1,0 +1,29 @@
+#head {
+  background-image: url("../../../public/images/storiesHeader.jpg");
+  background-size: cover;
+  height: 62vh;
+  display: flex;
+  align-items: center;
+}
+
+#storiesTitle {
+  height: 25%;
+  max-width: auto;
+  position: absolute;
+  left: 27%;
+  top: 28%;
+}
+
+@media screen and (max-width: 840px) {
+  #storiesTitle {
+    max-width: 35%;
+    height: auto;
+    left: 12%;
+    top: 32.5%;
+  }
+}
+@media screen and (max-width: 420px) {
+  #head {
+    margin-bottom: -50px;
+  }
+}

@@ -1,0 +1,28 @@
+#story-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+#searchWrapper {
+  display: flex;
+  margin: 8vh 0;
+}
+
+#storiesWrapper {
+  background-image: url(../../../public/images/tornPaper-2.png);
+  margin: 0;
+}
+
+#dropdown {
+  margin-left: 4%;
+  height: 56px;
+  width: 100px;
+}
+
+#noStories {
+  font-family: "Padauk", sans-serif;
+  font-size: 2rem;
+  color: rgb(183, 183, 183);
+  opacity: 80%;
+}
